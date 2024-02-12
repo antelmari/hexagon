@@ -1,0 +1,24 @@
+<svg width="1440" height="840" viewBox="0 0 1440 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_41_1636)">
+<circle cx="693.5" cy="386.5" r="261" stroke="#202020"/>
+<circle cx="379.5" cy="9.5" r="462" stroke="#202020"/>
+<circle cx="1451" cy="-225" r="420.5" stroke="#202020"/>
+<path d="M1538 337L1177 477.637L998 850" stroke="#202020"/>
+<path d="M70 850L308 628L846 850" stroke="#202020"/>
+</g>
+<g clip-path="url(#clip1_41_1636)">
+<circle cx="683.5" cy="376.5" r="261" stroke="#2A2A2A"/>
+<circle cx="369.5" cy="-0.5" r="462" stroke="#2A2A2A"/>
+<circle cx="1441" cy="-235" r="420.5" stroke="#2A2A2A"/>
+<path d="M1528 327L1167 467.637L988 840" stroke="#2A2A2A"/>
+<path d="M60 840L298 618L836 840" stroke="#2A2A2A"/>
+</g>
+<defs>
+<clipPath id="clip0_41_1636">
+<rect width="1440" height="840" fill="white"/>
+</clipPath>
+<clipPath id="clip1_41_1636">
+<rect width="1440" height="840" fill="white"/>
+</clipPath>
+</defs>
+</svg>

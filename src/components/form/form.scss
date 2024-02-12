@@ -1,0 +1,44 @@
+@import '../../style/consts.scss';
+
+.form {
+    margin-top: 40px;
+    &__form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__input {
+        width: calc(100% - 150px);
+        height: 40px;
+        border: 1px solid $grey;
+        background-color: $black;
+        border-radius: 4px;
+        padding: 0 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 130%;
+        color: $white;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: $grey;
+        }
+    }
+    &__btn {
+        height: 40px;
+        border: none;
+        padding: 0 20px;
+        border-radius: 4px;
+        display: block;
+        background-color: $blue;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: $white;
+        cursor: pointer;
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import '../../../style/consts.scss';
+
+.main {
+    height: 100vh;
+    background: url(../../../images/bg.svg) center (center/cover) no-repeat;
+    background-color: $black;
+    padding: 40px 0;
+    &__btn {
+        height: 40px;
+        border: none;
+        padding: 0 20px;
+        border-radius: 4px;
+        display: block;
+        margin-left: auto;
+        background-color: $blue;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: $white;
+        cursor: pointer;
+        &:focus {
+            outline: none;
+        }
+    }
+}

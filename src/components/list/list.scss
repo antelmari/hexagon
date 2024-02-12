@@ -1,0 +1,64 @@
+@import '../../style/consts.scss';
+
+.list {
+    &__sorting {
+        margin-top: 20px;
+        width: 360px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+    }
+    &__column {
+        display: grid;
+        row-gap: 10px;
+        label {
+            display: flex;
+            align-items: center;
+            span {
+                margin-left: 10px;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 130%;
+                color: $white;
+            }
+        }
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: $white;
+    }
+    &__btn {
+        margin-top: 20px;
+        height: 40px;
+        border: none;
+        padding: 0 20px;
+        border-radius: 4px;
+        display: block;
+        background-color: $blue;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: $white;
+        cursor: pointer;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__header {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 3fr 2fr 1fr;
+        column-gap: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: $white;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $white;
+    }
+    &__links {
+        list-style-type: none;
+    }
+}
